@@ -1,4 +1,4 @@
-package br.com.margel.controle.bd;
+package br.com.margel.gp.control.bd;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

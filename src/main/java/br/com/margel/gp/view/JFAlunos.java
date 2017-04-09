@@ -1,4 +1,4 @@
-package br.com.margel.visualizacao;
+package br.com.margel.gp.view;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -21,21 +21,21 @@ import javax.swing.JTabbedPane;
 import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
 
-import br.com.margel.controle.AlunoContr;
-import br.com.margel.modelos.Aluno;
-import br.com.margel.modelos.Aluno.Genero;
+import br.com.margel.gp.control.AlunoContr;
+import br.com.margel.gp.models.Aluno;
+import br.com.margel.gp.models.Aluno.Genero;
+import br.com.margel.gp.view.components.HintTextField;
+import br.com.margel.gp.view.components.JFormattedTextField;
+import br.com.margel.gp.view.components.JPLocalDate;
+import br.com.margel.gp.view.components.OptionPane;
+import br.com.margel.gp.view.models.GenericTableModel;
+import br.com.margel.gp.view.models.TableField;
+import br.com.margel.gp.view.models.TableFieldBuilder;
+import br.com.margel.gp.view.utils.FontUtils;
+import br.com.margel.gp.view.utils.IconUtils;
 import net.miginfocom.layout.CC;
 import net.miginfocom.layout.LC;
 import net.miginfocom.swing.MigLayout;
-import br.com.margel.visualizacao.componentes.HintTextField;
-import br.com.margel.visualizacao.componentes.JFormattedTextField;
-import br.com.margel.visualizacao.componentes.JPLocalDate;
-import br.com.margel.visualizacao.componentes.OptionPane;
-import br.com.margel.visualizacao.models.GenericTableModel;
-import br.com.margel.visualizacao.models.TableField;
-import br.com.margel.visualizacao.models.TableFieldBuilder;
-import br.com.margel.visualizacao.utils.FontUtils;
-import br.com.margel.visualizacao.utils.IconUtils;
 
 @SuppressWarnings("serial")
 public class JFAlunos extends JFrame{

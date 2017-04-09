@@ -1,4 +1,4 @@
-package br.com.margel.controle;
+package br.com.margel.gp.control;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -6,9 +6,10 @@ import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
-import br.com.margel.controle.bd.Db;
-import br.com.margel.modelos.Aluno;
-import br.com.margel.modelos.Aluno.Genero;
+
+import br.com.margel.gp.control.bd.Db;
+import br.com.margel.gp.models.Aluno;
+import br.com.margel.gp.models.Aluno.Genero;
 
 public class AlunoContr extends BasicContr<Aluno, String> {
 

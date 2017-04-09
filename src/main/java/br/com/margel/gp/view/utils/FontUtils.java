@@ -1,4 +1,4 @@
-package br.com.margel.visualizacao.utils;
+package br.com.margel.gp.view.utils;
 
 import java.awt.Color;
 

@@ -1,4 +1,4 @@
-package br.com.margel.visualizacao.componentes;
+package br.com.margel.gp.view.components;
 
 import java.awt.Window;
 

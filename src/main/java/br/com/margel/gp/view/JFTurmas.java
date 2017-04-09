@@ -1,4 +1,4 @@
-package br.com.margel.visualizacao;
+package br.com.margel.gp.view;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -7,11 +7,11 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JSeparator;
 
+import br.com.margel.gp.view.utils.FontUtils;
+import br.com.margel.gp.view.utils.IconUtils;
 import net.miginfocom.layout.CC;
 import net.miginfocom.layout.LC;
 import net.miginfocom.swing.MigLayout;
-import br.com.margel.visualizacao.utils.FontUtils;
-import br.com.margel.visualizacao.utils.IconUtils;
 
 @SuppressWarnings("serial")
 public class JFTurmas extends JFrame{

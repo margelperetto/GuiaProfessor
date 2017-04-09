@@ -1,9 +1,9 @@
-package br.com.margel.visualizacao;
+package br.com.margel.gp.view;
 
 import javax.swing.UIManager;
 
-import br.com.margel.visualizacao.componentes.OptionPane;
-import br.com.margel.visualizacao.utils.WindowUtils;
+import br.com.margel.gp.view.components.OptionPane;
+import br.com.margel.gp.view.utils.WindowUtils;
 
 public class XStartApp {
 

@@ -1,4 +1,4 @@
-package br.com.margel.modelos;
+package br.com.margel.gp.models;
 
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;

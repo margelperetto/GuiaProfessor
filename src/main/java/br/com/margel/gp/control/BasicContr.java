@@ -1,4 +1,4 @@
-package br.com.margel.controle;
+package br.com.margel.gp.control;
 
 import java.util.List;
 import javax.persistence.TypedQuery;
@@ -6,8 +6,8 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
-import br.com.margel.controle.bd.Db;
-import br.com.margel.modelos.BasicBean;
+import br.com.margel.gp.control.bd.Db;
+import br.com.margel.gp.models.BasicBean;
 
 public abstract class BasicContr<T extends BasicBean, F> {
 

@@ -1,9 +1,9 @@
-package br.com.margel.visualizacao.utils;
+package br.com.margel.gp.view.utils;
 
 import java.awt.EventQueue;
 import java.awt.Window;
 
-import br.com.margel.visualizacao.componentes.OptionPane;
+import br.com.margel.gp.view.components.OptionPane;
 
 public class WindowUtils {
 

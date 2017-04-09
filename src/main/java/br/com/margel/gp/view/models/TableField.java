@@ -1,4 +1,4 @@
-package br.com.margel.visualizacao.models;
+package br.com.margel.gp.view.models;
 
 import java.lang.reflect.Field;
 

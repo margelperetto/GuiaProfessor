@@ -1,4 +1,4 @@
-package br.com.margel.visualizacao;
+package br.com.margel.gp.view;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -22,13 +22,13 @@ import javax.swing.JPanel;
 import javax.swing.JSeparator;
 import javax.swing.border.LineBorder;
 
-import br.com.margel.controle.bd.Db;
 import net.miginfocom.layout.CC;
 import net.miginfocom.layout.LC;
 import net.miginfocom.swing.MigLayout;
-import br.com.margel.visualizacao.utils.FontUtils;
-import br.com.margel.visualizacao.utils.IconUtils;
-import br.com.margel.visualizacao.utils.WindowUtils;
+import br.com.margel.gp.control.bd.Db;
+import br.com.margel.gp.view.utils.FontUtils;
+import br.com.margel.gp.view.utils.IconUtils;
+import br.com.margel.gp.view.utils.WindowUtils;
 
 @SuppressWarnings("serial")
 public class TelaPrincipal extends JFrame{
