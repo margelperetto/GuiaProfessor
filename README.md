@@ -1,6 +1,6 @@
 # Guia Professor
 
-Software feito em JavaSE para controle do cadastro de alunos e turmar, usado para ministrar as aulas de POO como um exemplo simples de uma aplicativo usando arquiterura de 3 camadas MVC.
+Software feito em JavaSE para controle do cadastro de alunos e turmas, usado para ministrar as aulas de POO como um exemplo simples de uma aplicação usando arquitetura em 3 camadas MVC. 
 Utiliza banco de dados H2 embarcado ou MySql, Maven, JPA Hibernate, Java Swing...
 
 ![alt text](https://github.com/margelperetto/GuiaProfessor/blob/master/screenshot1.png "ScreenShot1")
