@@ -13,7 +13,8 @@ Utiliza banco de dados H2 embarcado ou MySql, Maven, JPA Hibernate, Java Swing..
 
 ## Para rodar
 ```
-$ git clone [URL]
+$ git clone https://github.com/margelperetto/GuiaProfessor.git
+$ cd GuiaProfessor
 $ mvn package
 $ java -jar target/GuiaProfessor-0.0.1-SNAPSHOT.jar
 ```
